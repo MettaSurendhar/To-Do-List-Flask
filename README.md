@@ -1,6 +1,4 @@
-# FlaskIntroduction
-
-> This repository has been archived and is no longer being updated.
+# To Do List
 
 ## How To Run
 1. Install `virtualenv`:
@@ -28,9 +26,5 @@ $ (env) pip install -r requirements.txt
 $ (env) python app.py
 ```
 
-This server will start on port 5000 by default. You can change this in `app.py` by changing the following line to this:
+This server will start on http://127.0.0.1:8080/ by default
 
-```python
-if __name__ == "__main__":
-    app.run(debug=True, port=<desired port>)
-```
