@@ -1,0 +1,122 @@
+/* Reset & base */
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Roboto, sans-serif;
+	background: linear-gradient(135deg, #74ebd5, #acb6e5);
+	color: #333;
+	height: 100%;
+}
+
+/* Main container */
+.content {
+	margin: 40px auto;
+	width: 90%;
+	max-width: 600px;
+	background: #fff;
+	padding: 25px 30px;
+	border-radius: 12px;
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+h1 {
+	margin-bottom: 20px;
+	font-size: 28px;
+	color: #444;
+}
+
+/* Table styling */
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+table,
+td,
+th {
+	border: 1px solid #ddd;
+}
+
+th {
+	background: #f7f9fc;
+	height: 40px;
+	font-weight: 600;
+	color: #444;
+}
+
+td {
+	text-align: center;
+	padding: 12px;
+	font-size: 15px;
+}
+
+/* Links for actions */
+td a {
+	display: inline-block;
+	margin: 5px;
+	padding: 6px 12px;
+	border-radius: 6px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	transition: 0.2s ease-in-out;
+}
+
+td a[href*='delete'] {
+	background: #ff6b6b;
+	color: white;
+}
+
+td a[href*='delete']:hover {
+	background: #e55050;
+}
+
+td a[href*='update'] {
+	background: #4dabf7;
+	color: white;
+}
+
+td a[href*='update']:hover {
+	background: #1e88e5;
+}
+
+/* Form */
+.form {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#content {
+	width: 65%;
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	outline: none;
+	transition: border-color 0.2s;
+}
+
+#content:focus {
+	border-color: #4dabf7;
+}
+
+input[type='submit'] {
+	padding: 10px 16px;
+	margin-left: 10px;
+	border: none;
+	background: #38b000;
+	color: white;
+	font-size: 14px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background 0.2s ease-in-out;
+}
+
+input[type='submit']:hover {
+	background: #2b8500;
+}

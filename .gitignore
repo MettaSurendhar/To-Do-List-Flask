@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite database
+test.db
+
+# Keploy files
+keploy.yml
+keploy/
+keploy-tests/
+
+# OS files
+.DS_Store
+Thumbs.db
